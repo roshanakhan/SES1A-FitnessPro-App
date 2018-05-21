@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+
+    // BMI Calculator:
     EditText height, weight;
     TextView result;
     Button calculateBmi;
@@ -73,4 +75,7 @@ public class MainActivity extends AppCompatActivity {
         bmiLabel = "BMI: " + bmi + "\n" + "Your are " + bmiLabel;
         result.setText(bmiLabel);
     }
+    
+
+
 }

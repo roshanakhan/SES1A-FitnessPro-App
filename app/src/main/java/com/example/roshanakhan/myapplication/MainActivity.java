@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
             float bmi = weightValue / (heightValue * heightValue);
 
             displayBMI(bmi);
+
+            
         }
 
     }

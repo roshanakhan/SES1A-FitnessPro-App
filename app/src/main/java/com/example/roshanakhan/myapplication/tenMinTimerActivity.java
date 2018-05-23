@@ -7,11 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.roshanakhan.myapplication.R;
-
 import java.util.Locale;
 
-public class timerActivity extends AppCompatActivity {
+public class tenMinTimerActivity extends AppCompatActivity {
     private static final long START_TIME_IN_MILLIS = 600000;
 
     private TextView mTextViewCountDown;
@@ -27,7 +25,7 @@ public class timerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_timer);
+        setContentView(R.layout.activity_10minTimer);
 
         mTextViewCountDown = findViewById(R.id.text_view_countdown);
 

@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     EditText height, weight;
     TextView result;
     Button calculateBmi;
+//    hello
 
 
     @Override

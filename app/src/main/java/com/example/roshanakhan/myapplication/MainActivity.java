@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-
+//hello
     // BMI Calculator:
     EditText height, weight;
     TextView result;
@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
 
     }
 
